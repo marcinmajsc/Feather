@@ -7,7 +7,7 @@ handle_error() {
 }
 
 echo "Fetching latest release data from GitHub..."
-release_info=$(curl -s https://api.github.com/repos/khcrysalis/Feather/releases/latest)
+release_info=$(curl -s https://api.github.com/repos/marcinmajsc/Feather/releases/latest)
 clean_release_info=$(echo "$release_info" | tr -d '\000-\037')
 
 updated_at=$(echo "$clean_release_info" | jq -r '.published_at // .created_at // empty')
