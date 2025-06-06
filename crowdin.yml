@@ -1,0 +1,4 @@
+files:
+  - source: /Feather/Resources/Localizable.xcstrings
+    translation: /Feather/Resources/Localizable.xcstrings
+    multilingual: 1
