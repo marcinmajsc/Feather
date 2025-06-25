@@ -34,9 +34,7 @@ $(SCHEMES): deps
 	    -derivedDataPath $(TMP) \
 	    -skipPackagePluginValidation \
 	    CODE_SIGNING_ALLOWED=NO \
-	    ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO \
-            NIGHTLY=YES \
-            DEBUG=YES
+	    ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO
 
 	rm -rf Payload
 	rm -rf $(STAGE)/
