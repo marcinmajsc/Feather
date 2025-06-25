@@ -35,7 +35,8 @@ $(SCHEMES): deps
 	    -skipPackagePluginValidation \
 	    CODE_SIGNING_ALLOWED=NO \
 	    ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO \
-            NIGHTLY=YES
+            NIGHTLY=YES \
+            DEBUG=YES
 
 	rm -rf Payload
 	rm -rf $(STAGE)/
