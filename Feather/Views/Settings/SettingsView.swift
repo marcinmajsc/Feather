@@ -45,10 +45,10 @@ struct SettingsView: View {
                         Label(.localized("Signing Options"), systemImage: "signature")
                     }
                     NavigationLink(destination: ArchiveView()) {
-                        Label(.localized("Archive & Compression"), systemImage: "archivebox")
+                        Label(.localized("Archive & Compression"), systemImage: "doc.zipper")
                     }
                     NavigationLink(destination: InstallationView()) {
-                        Label(.localized("Installation"), systemImage: "arrow.down.circle")
+                        Label(.localized("Installation"), systemImage: "apps.iphone.badge.plus")
                     }
                 } footer: {
                     Text(.localized("Configure the apps way of installing, its zip compression levels, and custom modifications to apps."))

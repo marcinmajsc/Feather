@@ -212,7 +212,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 				guard folderURL.hasDirectoryPath else { continue }
 				
 				let certName = folderURL.lastPathComponent
-				
 				let p12Url = folderURL.appendingPathComponent("cert.p12")
 				let provisionUrl = folderURL.appendingPathComponent("cert.mobileprovision")
 				let passwordUrl = folderURL.appendingPathComponent("cert.txt")
@@ -243,5 +242,4 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 			Logger.misc.error("Failed to list signing-assets: \(error)")
 		}
 	}
-
 }
