@@ -606,8 +606,8 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%lld Sources"
+            "state" : "translated",
+            "value" : "%lld Źródeł"
           }
         },
         "ru" : {
@@ -9309,8 +9309,8 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Install After Signing"
+            "state" : "translated",
+            "value" : "Zainstaluj po podpisaniu"
           }
         },
         "ru" : {
