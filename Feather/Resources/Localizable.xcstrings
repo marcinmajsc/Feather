@@ -40,13 +40,13 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "translated",
+                  "state" : "new",
                   "value" : "%lld App"
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "translated",
+                  "state" : "new",
                   "value" : "%lld Apps"
                 }
               }
@@ -132,20 +132,26 @@
           }
         },
         "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld Uygulama"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld App"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Apps"
+                }
+              }
+            }
           }
         },
         "vi" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld ứng dụng"
-                }
-              },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
@@ -156,9 +162,15 @@
           }
         },
         "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld个应用"
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Apps"
+                }
+              }
+            }
           }
         }
       }
@@ -293,20 +305,26 @@
           }
         },
         "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld Gün"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Days"
+                }
+              }
+            }
           }
         },
         "vi" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld ngày"
-                }
-              },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
@@ -317,9 +335,15 @@
           }
         },
         "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld天"
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld Days"
+                }
+              }
+            }
           }
         }
       }
@@ -330,7 +354,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "%lld požadované systémové knihovny nejsou zobrazeny"
           }
         },
@@ -348,7 +372,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "%lld dylib sistem yang diperlukan tidak ditampilkan"
           }
         },
@@ -389,33 +413,9 @@
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
-          "variations" : {
-            "plural" : {
-              "few" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld zdroje"
-                }
-              },
-              "many" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld zdrojů"
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld zdroj"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld zdrojů"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%lld Sources"
           }
         },
         "de" : {
@@ -437,51 +437,15 @@
           }
         },
         "it" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Fonte"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Fonti"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%lld Sources"
           }
         },
         "pl" : {
-          "variations" : {
-            "plural" : {
-              "few" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld źródeł"
-                }
-              },
-              "many" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld źródeł"
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld źródło"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld źródeł"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%lld Sources"
           }
         },
         "tr" : {
@@ -626,6 +590,12 @@
       "comment" : "About Feather",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "About %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -635,6 +605,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "About %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "About %@"
           }
         },
@@ -691,12 +667,6 @@
             "value" : "Add"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,12 +683,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Добавить"
           }
         },
         "tr" : {
@@ -803,6 +767,12 @@
     "Adds the localized description of the app." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Adds the localized description of the app."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -812,6 +782,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Adds the localized description of the app."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Adds the localized description of the app."
           }
         },
@@ -866,18 +842,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Advanced"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avanzado"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Avancé"
           }
         },
         "id" : {
@@ -982,7 +946,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Všechny soubory Featheru jsou v složce Dokumenty, zde jsou na ně rychlé odkazy."
           }
         },
@@ -1000,7 +964,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Semua berkas Feather berada di direktori dokumen, berikut beberapa tautan cepat ke berkas-berkas tersebut."
           }
         },
@@ -1107,7 +1071,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Alternative Icons"
           }
         },
@@ -1277,9 +1241,33 @@
     "App Icon" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "App Icon"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "App Icon"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "App Icon"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "App Icon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "App Icon"
           }
         },
@@ -1330,18 +1318,6 @@
             "value" : "Appearance"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apariencia"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apparence"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1358,12 +1334,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygląd"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Внешний вид"
           }
         },
         "tr" : {
@@ -1526,18 +1496,6 @@
             "value" : "Bad Password"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contraseña Inválida"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mauvais mot de passe"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1554,12 +1512,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niepoprawne hasło"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Неверный пароль"
           }
         },
         "tr" : {
@@ -1585,6 +1537,12 @@
     "Best" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Best"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1594,6 +1552,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Best"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Best"
           }
         },
@@ -1650,18 +1614,6 @@
             "value" : "Big Description"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Descripción Grande"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Grande description"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1678,12 +1630,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozszerzony opis"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Большое описание"
           }
         },
         "tr" : {
@@ -1709,9 +1655,27 @@
     "Bug Report" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bug Report"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bug Report"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Bug Report"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Bug Report"
           }
         },
@@ -1752,7 +1716,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Bundle"
           }
         },
@@ -1770,7 +1734,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Bundle"
           }
         },
@@ -1794,7 +1758,7 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Bundle"
           }
         },
@@ -1809,6 +1773,12 @@
     "By default, localized titles for the app won't be changed, however this option overrides it." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "By default, localized titles for the app won't be changed, however this option overrides it."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1818,6 +1788,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "By default, localized titles for the app won't be changed, however this option overrides it."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "By default, localized titles for the app won't be changed, however this option overrides it."
           }
         },
@@ -1874,18 +1850,6 @@
             "value" : "Cancel"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancelar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Annuler"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1902,12 +1866,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anuluj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отменить"
           }
         },
         "tr" : {
@@ -1933,9 +1891,33 @@
     "Category" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Category"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Category"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Category"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Category"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Category"
           }
         },
@@ -2046,18 +2028,6 @@
             "value" : "Certificates"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Certificados"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Certificats"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2074,12 +2044,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Certyfikaty"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сертификаты"
           }
         },
         "tr" : {
@@ -2164,6 +2128,12 @@
     "Check Revokage" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Check Revokage"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2173,6 +2143,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Check Revokage"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Check Revokage"
           }
         },
@@ -2390,6 +2366,12 @@
     "Completed" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Completed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2399,6 +2381,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Completed"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Completed"
           }
         },
@@ -2497,6 +2485,12 @@
     "Configure the apps way of installing, its zip compression levels, and custom modifications to apps." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Configure the apps way of installing, its zip compression levels, and custom modifications to apps."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2506,6 +2500,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Configure the apps way of installing, its zip compression levels, and custom modifications to apps."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Configure the apps way of installing, its zip compression levels, and custom modifications to apps."
           }
         },
@@ -2562,18 +2562,6 @@
             "value" : "Copy"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copiar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copier"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2590,12 +2578,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiuj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Копировать"
           }
         },
         "tr" : {
@@ -2621,6 +2603,12 @@
     "Copy Download URLs" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copy Download URLs"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2630,6 +2618,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Copy Download URLs"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Copy Download URLs"
           }
         },
@@ -2676,7 +2670,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Credits"
           }
         },
@@ -2684,18 +2678,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Credits"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Créditos"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Crédits"
           }
         },
         "id" : {
@@ -2714,12 +2696,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podziękowania"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Авторы"
           }
         },
         "tr" : {
@@ -2804,9 +2780,33 @@
     "Dark" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dark"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dark"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Dark"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dark"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Dark"
           }
         },
@@ -2916,18 +2916,6 @@
             "value" : "Date Added"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fecha agregado"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date d'ajout"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2987,21 +2975,9 @@
             "value" : "Default"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Por defecto"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Défaut"
-          }
-        },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Default"
           }
         },
@@ -3015,12 +2991,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domyślny"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "По умолчанию"
           }
         },
         "tr" : {
@@ -3046,6 +3016,12 @@
     "Default style for the app, only includes subtitle." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Default style for the app, only includes subtitle."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3055,6 +3031,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Default style for the app, only includes subtitle."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Default style for the app, only includes subtitle."
           }
         },
@@ -3111,18 +3093,6 @@
             "value" : "Delete"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Borrar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Supprimer"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3139,12 +3109,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Удалить"
           }
         },
         "tr" : {
@@ -3170,6 +3134,12 @@
     "Delete After Signing" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delete After Signing"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3179,6 +3149,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Delete After Signing"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Delete After Signing"
           }
         },
@@ -3217,9 +3193,33 @@
     "Description" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Description"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Description"
           }
         },
@@ -3252,15 +3252,39 @@
     "Developer" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Developer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Developer"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Developer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Developer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Developer"
+          }
+        },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Developer"
           }
         },
@@ -3287,27 +3311,57 @@
     "Discord" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Discord"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Discord"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Discord"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Discord"
+          }
+        },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Discord"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Discord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Discord"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Discord"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Discord"
           }
         }
@@ -3335,18 +3389,6 @@
             "value" : "Dismiss"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Descartar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fermer"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3363,12 +3405,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Закрыть"
           }
         },
         "tr" : {
@@ -3430,12 +3466,6 @@
             "value" : "Wyświetlane nazwy"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отображаемые имена"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3459,9 +3489,27 @@
     "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate."
           }
         },
@@ -3518,18 +3566,6 @@
             "value" : "Donate"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Donar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Faire un don"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3546,12 +3582,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wesprzyj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожертвовать"
           }
         },
         "tr" : {
@@ -3596,18 +3626,6 @@
             "value" : "Donations"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Donaciones"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dons"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3624,12 +3642,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Darowizny"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожертвования"
           }
         },
         "tr" : {
@@ -3656,9 +3668,15 @@
       "comment" : "Don't translate StosVPN, this is for linking the download to the required VPN for idevice",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Download StosVPN"
+          }
+        },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Download StosVPN"
           }
         },
@@ -3711,13 +3729,13 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dyliby"
+            "state" : "new",
+            "value" : "Dylibs"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Dylibs"
           }
         },
@@ -3727,39 +3745,39 @@
             "value" : "Dylibs"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dylibs"
-          }
-        },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Dylibs"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Dylibs"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Dylibs"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dylib Kütüphaneleri"
+            "state" : "new",
+            "value" : "Dylibs"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Dylibs"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Dylibs"
           }
         }
@@ -3769,6 +3787,12 @@
     "Enable Liquid Glass" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enable Liquid Glass"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3778,6 +3802,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Enable Liquid Glass"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Enable Liquid Glass"
           }
         },
@@ -3876,6 +3906,12 @@
       "comment" : "Enjoying Feather?",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enjoying %@?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3885,6 +3921,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Enjoying %@?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Enjoying %@?"
           }
         },
@@ -4000,18 +4042,6 @@
             "value" : "Enter Password"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Introducir Contraseña"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entrer le mot de passe"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4028,12 +4058,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wprowadź hasło"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Введите пароль"
           }
         },
         "tr" : {
@@ -4059,6 +4083,12 @@
     "Enter Source URL" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Source URL"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4068,6 +4098,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Enter Source URL"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Enter Source URL"
           }
         },
@@ -4124,18 +4160,6 @@
             "value" : "Enter the password associated with the private key. Leave it blank if theres no password required."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Introduzca la contraseña asociada a la llave privada, déjalo en blanco si una contraseña no es necesaria."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entrez le mot de passe associé à la clé privée, laissez vide si aucun mot de passe n'est requis."
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4152,12 +4176,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wprowadź hasło powiązane z kluczem prywatnym. Pozostaw puste, jeśli nie jest wymagane hasło."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Введите пароль, связанный с закрытым ключом, оставьте поле пустым, если пароль не требуется."
           }
         },
         "tr" : {
@@ -4191,7 +4209,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Entitlements"
           }
         },
@@ -4242,6 +4260,12 @@
     "Error" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Error"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4251,6 +4275,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Error"
           }
         },
@@ -4407,6 +4437,12 @@
     "Experiments" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Experiments"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4416,6 +4452,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Experiments"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Experiments"
           }
         },
@@ -4472,12 +4514,6 @@
             "value" : "Expired"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Expirado"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4494,12 +4530,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygasł"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Истёк"
           }
         },
         "tr" : {
@@ -4587,7 +4617,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Export"
           }
         },
@@ -4644,9 +4674,27 @@
     "Export Certificate" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Export Certificate"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Export Certificate"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Export Certificate"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Export Certificate"
           }
         },
@@ -4744,6 +4792,12 @@
     "Featured" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Featured"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4753,6 +4807,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Featured"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Featured"
           }
         },
@@ -4887,12 +4947,6 @@
             "value" : "Udostępnianie plików"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Разрешить просмотр документов"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4942,7 +4996,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Files"
           }
         },
@@ -5101,7 +5155,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks"
           }
         },
@@ -5113,13 +5167,13 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks"
           }
         },
@@ -5137,7 +5191,7 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks"
           }
         },
@@ -5172,7 +5226,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks & PlugIns"
           }
         },
@@ -5196,7 +5250,7 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Frameworks & PlugIns"
           }
         },
@@ -5270,6 +5324,12 @@
     "Game Mode" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Game Mode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5279,6 +5339,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Game Mode"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Game Mode"
           }
         },
@@ -5335,12 +5401,6 @@
             "value" : "General"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Général"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5357,12 +5417,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogólne"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Общие"
           }
         },
         "tr" : {
@@ -5388,6 +5442,30 @@
     "Get" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5536,6 +5614,12 @@
     "Get started by adding your first repository." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get started by adding your first repository."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5545,6 +5629,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Get started by adding your first repository."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Get started by adding your first repository."
           }
         },
@@ -5583,6 +5673,12 @@
     "Get started by importing your first IPA file." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get started by importing your first IPA file."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5592,6 +5688,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Get started by importing your first IPA file."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Get started by importing your first IPA file."
           }
         },
@@ -5630,6 +5732,12 @@
     "Get started signing by importing your first certificate." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Get started signing by importing your first certificate."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5639,6 +5747,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Get started signing by importing your first certificate."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Get started signing by importing your first certificate."
           }
         },
@@ -5695,18 +5809,6 @@
             "value" : "GitHub Repository"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Repositorio de GitHub"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dépôt GitHub"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5723,12 +5825,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Repozytorium GitHub"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GitHub репозиторий"
           }
         },
         "tr" : {
@@ -5754,6 +5850,12 @@
     "Go to our GitHub and give us a star!" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Go to our GitHub and give us a star!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5763,6 +5865,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Go to our GitHub and give us a star!"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Go to our GitHub and give us a star!"
           }
         },
@@ -5803,7 +5911,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Heartbeat"
           }
         },
@@ -5833,19 +5941,19 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Heartbeat"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Heartbeat"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Heartbeat"
           }
         },
@@ -6055,18 +6163,6 @@
             "value" : "Identifier"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Identificador"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Identifiant"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6083,12 +6179,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identyfikator"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Идентификатор"
           }
         },
         "tr" : {
@@ -6173,27 +6263,57 @@
     "idevice" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "idevice"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "idevice"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "idevice"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "idevice"
+          }
+        },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "idevice"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "idevice"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "idevice"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "idevice"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "idevice"
           }
         }
@@ -6203,6 +6323,12 @@
     "If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6212,6 +6338,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."
           }
         },
@@ -6269,18 +6401,6 @@
             "value" : "Import"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Import"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importer"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6297,12 +6417,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Импорт"
           }
         },
         "tr" : {
@@ -6692,7 +6806,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Info"
           }
         },
@@ -6704,7 +6818,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Info"
           }
         },
@@ -6743,6 +6857,30 @@
     "Information" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Information"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Information"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Information"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Information"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6772,6 +6910,12 @@
     "Injection Folder" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Injection Folder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6825,6 +6969,12 @@
     "Injection Path" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Injection Path"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6896,18 +7046,6 @@
             "value" : "Install"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Install"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Install"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6924,12 +7062,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instaluj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Установить"
           }
         },
         "tr" : {
@@ -6955,6 +7087,42 @@
     "Install After Signing" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Install After Signing"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6963,19 +7131,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "签名后安装"
-          }
-        }
-      }
-    },
-    "Install After Signing" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt sau khi ký"
+            "state" : "new",
+            "value" : "Install After Signing"
           }
         }
       }
@@ -6983,15 +7140,27 @@
     "Installation" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Installation"
+          }
+        },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Installation"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Installation"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Installation"
           }
         },
@@ -7089,6 +7258,12 @@
     "Installing" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Installing"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7098,6 +7273,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Installing"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Installing"
           }
         },
@@ -7232,12 +7413,6 @@
             "value" : "Udostępnianie plików iTunes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Разрешить общий доступ через iTunes"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7261,6 +7436,12 @@
     "Learn more about how to setup a repository…" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Learn more about how to setup a repository…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7270,6 +7451,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Learn more about how to setup a repository…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Learn more about how to setup a repository…"
           }
         },
@@ -7308,9 +7495,33 @@
     "Less" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Less"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Less"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Less"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Less"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Less"
           }
         },
@@ -7360,18 +7571,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Biblioteca"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bibliothèque"
           }
         },
         "id" : {
@@ -7474,9 +7673,33 @@
     "Light" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Light"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Light"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Light"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Light"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Light"
           }
         },
@@ -7687,9 +7910,33 @@
     "More" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "More"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "More"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "More"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "More"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "More"
           }
         },
@@ -7730,7 +7977,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Name"
           }
         },
@@ -7738,18 +7985,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nombre"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nom"
           }
         },
         "id" : {
@@ -7870,18 +8105,6 @@
             "value" : "New Certificate"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Añadir Certificados"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajouter un certificat"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7898,12 +8121,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nowy certyfikat"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Добавить сертификаты"
           }
         },
         "tr" : {
@@ -7989,6 +8206,12 @@
     "No Apps" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Apps"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7998,6 +8221,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Apps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Apps"
           }
         },
@@ -8095,6 +8324,12 @@
     "No Certificates" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Certificates"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8104,6 +8339,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Certificates"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Certificates"
           }
         },
@@ -8142,9 +8383,33 @@
     "No Entitlements listed." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Entitlements listed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Entitlements listed."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Entitlements listed."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Entitlements listed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Entitlements listed."
           }
         },
@@ -8177,6 +8442,12 @@
     "No files chosen." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No files chosen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8230,6 +8501,12 @@
     "No Frameworks or PlugIns Found." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Frameworks or PlugIns Found."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8239,6 +8516,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Frameworks or PlugIns Found."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Frameworks or PlugIns Found."
           }
         },
@@ -8277,6 +8560,12 @@
     "No Icons Found." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Icons Found."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8286,6 +8575,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Icons Found."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Icons Found."
           }
         },
@@ -8383,6 +8678,30 @@
     "No Privacy Permissions listed." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8412,6 +8731,12 @@
     "No Repositories" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Repositories"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8421,6 +8746,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "No Repositories"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "No Repositories"
           }
         },
@@ -8459,6 +8790,12 @@
     "None" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "None"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8468,6 +8805,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "None"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "None"
           }
         },
@@ -8508,7 +8851,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         },
@@ -8524,39 +8867,21 @@
             "value" : "OK"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         },
@@ -8568,13 +8893,13 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "OK"
           }
         }
@@ -8701,6 +9026,12 @@
     "Open an [issue](https://github.com/khcrysalis/Feather/issues) on GitHub if you want your source to be featured." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Open an [issue](https://github.com/khcrysalis/Feather/issues) on GitHub if you want your source to be featured."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8710,6 +9041,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Open an [issue](https://github.com/khcrysalis/Feather/issues) on GitHub if you want your source to be featured."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Open an [issue](https://github.com/khcrysalis/Feather/issues) on GitHub if you want your source to be featured."
           }
         },
@@ -8943,18 +9280,6 @@
             "value" : "Open in Files"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir en Archivos"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvrir dans Fichiers"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8971,12 +9296,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz w Plikach"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Открыть в Файлах"
           }
         },
         "tr" : {
@@ -9002,9 +9321,27 @@
     "Other" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Other"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Other"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Other"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Other"
           }
         },
@@ -9043,6 +9380,12 @@
     "Packaging" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Packaging"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9052,6 +9395,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Packaging"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Packaging"
           }
         },
@@ -9167,18 +9516,6 @@
             "value" : "Password"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contraseña"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mot de passe"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9187,7 +9524,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Password"
           }
         },
@@ -9195,12 +9532,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hasło"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пароль"
           }
         },
         "tr" : {
@@ -9226,9 +9557,33 @@
     "Permissions" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Permissions"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Permissions"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Permissions"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Permissions"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Permissions"
           }
         },
@@ -9281,7 +9636,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Platform"
           }
         },
@@ -9299,7 +9654,7 @@
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Platform"
           }
         },
@@ -9339,18 +9694,6 @@
             "value" : "Please check the password and try again."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Por favor revise la contraseña e inténtelo de nuevo."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Veuillez vérifier le mot de passe et réessayer."
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9367,12 +9710,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sprawdź hasło i spróbuj ponownie."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Пожалуйста, проверьте пароль и попробуйте снова."
           }
         },
         "tr" : {
@@ -9457,6 +9794,12 @@
     "Post Signing" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Post Signing"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9466,6 +9809,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Post Signing"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Post Signing"
           }
         },
@@ -9540,12 +9889,6 @@
             "value" : "Ochrona PPQ"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Включить защиту"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9569,9 +9912,33 @@
     "PPQCheck" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PPQCheck"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PPQCheck"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "PPQCheck"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PPQCheck"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "PPQCheck"
           }
         },
@@ -9583,7 +9950,7 @@
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "PPQCheck"
           }
         },
@@ -9664,27 +10031,57 @@
     "Pro Motion" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pro Motion"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pro Motion"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro Motion"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pro Motion"
+          }
+        },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Pro Motion"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Pro Motion"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Pro Motion"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Pro Motion"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Pro Motion"
           }
         }
@@ -9694,6 +10091,12 @@
     "Proceed" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Proceed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9703,6 +10106,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Proceed"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Proceed"
           }
         },
@@ -9758,12 +10167,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Properties"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Propriétés"
           }
         },
         "id" : {
@@ -10043,6 +10446,12 @@
     "Ready" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ready"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10052,6 +10461,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Ready"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Ready"
           }
         },
@@ -10244,12 +10659,6 @@
             "value" : "Usuń provisioning"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Удалить Provisioning File"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10368,12 +10777,6 @@
             "value" : "Usuń schemat URL"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Удалить URLScheme"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10456,9 +10859,27 @@
     "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection."
           }
         },
@@ -10497,6 +10918,12 @@
     "Replace Substrate with ElleKit" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Replace Substrate with ElleKit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10506,6 +10933,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Replace Substrate with ElleKit"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Replace Substrate with ElleKit"
           }
         },
@@ -10578,12 +11011,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Docelowa wartość"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Замена"
           }
         },
         "tr" : {
@@ -10668,6 +11095,12 @@
     "Repository already added." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Repository already added."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10677,6 +11110,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Repository already added."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Repository already added."
           }
         },
@@ -10733,18 +11172,6 @@
             "value" : "Reset"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reiniciar"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Réinitialiser"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10761,12 +11188,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сброс"
           }
         },
         "tr" : {
@@ -10792,6 +11213,12 @@
     "Reset All" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset All"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10801,6 +11228,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset All"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset All"
           }
         },
@@ -10839,6 +11272,12 @@
     "Reset Certificates" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Certificates"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10848,6 +11287,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Certificates"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Certificates"
           }
         },
@@ -10886,6 +11331,12 @@
     "Reset Imported Apps" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Imported Apps"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10895,6 +11346,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Imported Apps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Imported Apps"
           }
         },
@@ -10933,6 +11390,12 @@
     "Reset Network Cache" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Network Cache"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10942,6 +11405,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Network Cache"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Network Cache"
           }
         },
@@ -10980,6 +11449,12 @@
     "Reset Settings" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Settings"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10989,6 +11464,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Settings"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Settings"
           }
         },
@@ -11027,6 +11508,12 @@
     "Reset Signed Apps" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Signed Apps"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11036,6 +11523,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Signed Apps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Signed Apps"
           }
         },
@@ -11074,6 +11567,12 @@
     "Reset Sources" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Sources"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11083,6 +11582,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Sources"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Sources"
           }
         },
@@ -11121,6 +11626,12 @@
     "Reset the applications sources, certificates, apps, and general contents." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset the applications sources, certificates, apps, and general contents."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11130,6 +11641,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset the applications sources, certificates, apps, and general contents."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset the applications sources, certificates, apps, and general contents."
           }
         },
@@ -11168,6 +11685,12 @@
     "Reset Work Cache" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Work Cache"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11177,6 +11700,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Reset Work Cache"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Reset Work Cache"
           }
         },
@@ -11333,9 +11862,33 @@
     "Revoked" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Revoked"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Revoked"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Revoked"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Revoked"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Revoked"
           }
         },
@@ -11386,12 +11939,6 @@
             "value" : "Save"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11408,12 +11955,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сохранить"
           }
         },
         "tr" : {
@@ -11439,9 +11980,33 @@
     "Screenshots" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Screenshots"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Screenshots"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Screenshots"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Screenshots"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Screenshots"
           }
         },
@@ -11772,6 +12337,12 @@
     "Sending Manifest" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sending Manifest"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11781,6 +12352,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Sending Manifest"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Sending Manifest"
           }
         },
@@ -11819,6 +12396,12 @@
     "Sending Payload" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sending Payload"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11828,6 +12411,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Sending Payload"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Sending Payload"
           }
         },
@@ -11866,9 +12455,15 @@
     "Server" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Server"
+          }
+        },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Server"
           }
         },
@@ -11878,9 +12473,15 @@
             "value" : "Server"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Server"
+          }
+        },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Server"
           }
         },
@@ -11913,6 +12514,12 @@
     "Server (Recommended):\nUses a locally hosted server and itms-services:// to install applications.\n\nIDevice (advanced):\nUses a VPN and a pairing file. Writes to AFC and manually calls installd, while monitoring install progress by using a callback\nAdvantage: It is very reliable, does not need SSL certificates or a externally hosted server. Rather, works similarly to a computer." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Server (Recommended):\nUses a locally hosted server and itms-services:// to install applications.\n\nIDevice (advanced):\nUses a VPN and a pairing file. Writes to AFC and manually calls installd, while monitoring install progress by using a callback\nAdvantage: It is very reliable, does not need SSL certificates or a externally hosted server. Rather, works similarly to a computer."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11922,6 +12529,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Server (Recommended):\nUses a locally hosted server and itms-services:// to install applications.\n\nIDevice (advanced):\nUses a VPN and a pairing file. Writes to AFC and manually calls installd, while monitoring install progress by using a callback\nAdvantage: It is very reliable, does not need SSL certificates or a externally hosted server. Rather, works similarly to a computer."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Server (Recommended):\nUses a locally hosted server and itms-services:// to install applications.\n\nIDevice (advanced):\nUses a VPN and a pairing file. Writes to AFC and manually calls installd, while monitoring install progress by using a callback\nAdvantage: It is very reliable, does not need SSL certificates or a externally hosted server. Rather, works similarly to a computer."
           }
         },
@@ -11968,7 +12581,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Server & SSL"
           }
         },
@@ -11980,13 +12593,13 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Server & SSL"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Server & SSL"
           }
         },
@@ -12019,6 +12632,12 @@
     "Server Type" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Server Type"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12028,6 +12647,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Server Type"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Server Type"
           }
         },
@@ -12083,18 +12708,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajustes"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Paramètres"
           }
         },
         "id" : {
@@ -12452,12 +13065,6 @@
             "value" : "Signing"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Signature"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12535,12 +13142,6 @@
             "value" : "Opcje podpisywania"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Параметры подписи"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12564,6 +13165,12 @@
     "Signing Type" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Signing Type"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12573,6 +13180,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Signing Type"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Signing Type"
           }
         },
@@ -12611,9 +13224,33 @@
     "Size" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Size"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Size"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Size"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Size"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Size"
           }
         },
@@ -12646,9 +13283,33 @@
     "Source" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Source"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Source"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Source"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Source"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Source"
           }
         },
@@ -12683,7 +13344,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "URL zdroje"
           }
         },
@@ -12701,7 +13362,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "URL Repo Sumber"
           }
         },
@@ -12759,18 +13420,6 @@
             "value" : "Sources"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fuentes"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sources"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12812,6 +13461,12 @@
     "Speed" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Speed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12821,6 +13476,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Speed"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Speed"
           }
         },
@@ -12867,23 +13528,11 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Sponsors"
           }
         },
         "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sponsors"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sponsors"
-          }
-        },
-        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sponsors"
@@ -12905,12 +13554,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sponsorzy"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Спонсоры"
           }
         },
         "tr" : {
@@ -13003,7 +13646,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Standard"
           }
         },
@@ -13021,7 +13664,7 @@
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Standard"
           }
         },
@@ -13070,12 +13713,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Signing"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Empezar a Firmar"
           }
         },
         "id" : {
@@ -13180,13 +13817,13 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "String"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "String"
           }
         },
@@ -13198,7 +13835,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "String"
           }
         },
@@ -13255,18 +13892,6 @@
             "value" : "Submit Feedback"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Envíar tu opinión"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Soumettre des commentaires"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13283,12 +13908,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prześlij opinię"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Отправить отзыв"
           }
         },
         "tr" : {
@@ -13316,7 +13935,7 @@
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Podporuje import z KravaSign a ESign"
           }
         },
@@ -13334,7 +13953,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Mendukung impor dari KravaSign/MapleSign dan ESign"
           }
         },
@@ -13550,6 +14169,12 @@
     "The only supported repositories are AltStore repositories." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The only supported repositories are AltStore repositories."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13559,6 +14184,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "The only supported repositories are AltStore repositories."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "The only supported repositories are AltStore repositories."
           }
         },
@@ -13597,15 +14228,27 @@
     "Theme" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Theme"
+          }
+        },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Theme"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Theme"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Theme"
           }
         },
@@ -13702,6 +14345,12 @@
     },
     "This action cannot be undone. Would you like to proceed?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This action cannot be undone. Would you like to proceed?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13711,6 +14360,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "This action cannot be undone. Would you like to proceed?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "This action cannot be undone. Would you like to proceed?"
           }
         },
@@ -13749,9 +14404,33 @@
     "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
           }
         },
@@ -13784,6 +14463,12 @@
     "This enables liquid glass for this app, this requires a restart of the app to take effect." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This enables liquid glass for this app, this requires a restart of the app to take effect."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13793,6 +14478,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "This enables liquid glass for this app, this requires a restart of the app to take effect."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "This enables liquid glass for this app, this requires a restart of the app to take effect."
           }
         },
@@ -13831,6 +14522,12 @@
     "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13840,6 +14537,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks."
           }
         },
@@ -13878,6 +14581,12 @@
     "This will delete your imported application after signing, to save on using unneeded space." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This will delete your imported application after signing, to save on using unneeded space."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13887,6 +14596,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "This will delete your imported application after signing, to save on using unneeded space."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "This will delete your imported application after signing, to save on using unneeded space."
           }
         },
@@ -13992,7 +14707,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Tunnel & Pairing"
           }
         },
@@ -14004,7 +14719,7 @@
         },
         "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Tunnel & Pairing"
           }
         },
@@ -14044,9 +14759,15 @@
       "comment" : "Select custom tweaks to install and inject",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Tweaks"
+          }
+        },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Tweaks"
           }
         },
@@ -14056,27 +14777,39 @@
             "value" : "Tweaks"
           }
         },
-        "fr" : {
+        "id" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Tweaks"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Modifiche"
+            "state" : "new",
+            "value" : "Tweaks"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Tweaks"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Tweaks"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "Tweaks"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Tweaks"
           }
         }
@@ -14104,18 +14837,6 @@
             "value" : "Unknown"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Desconocido"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inconnu"
-          }
-        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14132,12 +14853,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nieznane"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Неизвестно"
           }
         },
         "tr" : {
@@ -14222,9 +14937,33 @@
     "Updated" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Updated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Updated"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Updated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Updated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Updated"
           }
         },
@@ -14257,27 +14996,57 @@
     "URL" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "URL"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "URL"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "URL"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "URL"
+          }
+        },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "URL"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "URL"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "URL"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
+            "value" : "URL"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "URL"
           }
         }
@@ -14287,6 +15056,12 @@
     "Value" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Value"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14296,6 +15071,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Value"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Value"
           }
         },
@@ -14342,23 +15123,11 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "new",
             "value" : "Version"
           }
         },
         "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Version"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Versión"
-          }
-        },
-        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version"
@@ -14406,9 +15175,33 @@
       "comment" : "Version 2.2.2",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Version %@"
           }
         },
@@ -14441,9 +15234,33 @@
     "Version History" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version History"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version History"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Version History"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version History"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Version History"
           }
         },
@@ -14656,9 +15473,33 @@
     "What's New" : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "What's New"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "What's New"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "What's New"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "What's New"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "What's New"
           }
         },
@@ -14691,6 +15532,12 @@
     "You cannot update ‘%@‘ with itself, please use an alternative tool to update it." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You cannot update ‘%@‘ with itself, please use an alternative tool to update it."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14744,6 +15591,12 @@
     "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file." : {
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14753,6 +15606,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file."
           }
         },
