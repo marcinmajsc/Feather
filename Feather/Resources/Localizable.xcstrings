@@ -58,13 +58,13 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "%lld App"
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "%lld Apps"
                 }
               }
@@ -231,7 +231,7 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "%lld Day"
                 }
               },
@@ -366,7 +366,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%lld required system dylibs not shown."
           }
         },
@@ -426,7 +426,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%lld Sources"
           }
         },
@@ -485,7 +485,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "💜 This couldn't of been done without my sponsors!"
           }
         },
@@ -544,7 +544,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "About"
           }
         },
@@ -604,7 +604,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "About %@"
           }
         },
@@ -663,7 +663,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Add"
           }
         },
@@ -722,7 +722,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Add Source"
           }
         },
@@ -781,7 +781,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Adds the localized description of the app."
           }
         },
@@ -840,7 +840,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Advanced"
           }
         },
@@ -899,7 +899,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "All"
           }
         },
@@ -958,7 +958,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "All of the apps files are contained in the documents directory, here are some quick links to these."
           }
         },
@@ -1018,7 +1018,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "All Repositories"
           }
         },
@@ -1077,7 +1077,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Alternative Icons"
           }
         },
@@ -1137,7 +1137,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "An awesome application"
           }
         },
@@ -1196,7 +1196,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "App Features"
           }
         },
@@ -1255,7 +1255,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "App Icon"
           }
         },
@@ -1314,7 +1314,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Appearance"
           }
         },
@@ -1373,7 +1373,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "AppID Name"
           }
         },
@@ -1432,7 +1432,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Archive & Compression"
           }
         },
@@ -1492,7 +1492,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bad Password"
           }
         },
@@ -1551,7 +1551,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Best"
           }
         },
@@ -1610,7 +1610,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Big Description"
           }
         },
@@ -1669,7 +1669,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bug Report"
           }
         },
@@ -1728,7 +1728,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bundle"
           }
         },
@@ -1787,7 +1787,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "By default, localized titles for the app won't be changed, however this option overrides it."
           }
         },
@@ -1846,7 +1846,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Cancel"
           }
         },
@@ -1905,7 +1905,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Category"
           }
         },
@@ -1964,7 +1964,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Certificate"
           }
         },
@@ -2024,7 +2024,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Certificates"
           }
         },
@@ -2083,7 +2083,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change"
           }
         },
@@ -2142,7 +2142,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Check Revokage"
           }
         },
@@ -2202,7 +2202,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Choose from Files"
           }
         },
@@ -2262,7 +2262,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Choose from Photos"
           }
         },
@@ -2321,7 +2321,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Close"
           }
         },
@@ -2380,7 +2380,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Completed"
           }
         },
@@ -2440,7 +2440,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Compression Level"
           }
         },
@@ -2499,7 +2499,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Configure the apps way of installing, its zip compression levels, and custom modifications to apps."
           }
         },
@@ -2558,7 +2558,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Copy"
           }
         },
@@ -2617,7 +2617,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Copy Download URLs"
           }
         },
@@ -2676,7 +2676,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Credits"
           }
         },
@@ -2735,7 +2735,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Customization"
           }
         },
@@ -2794,7 +2794,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Dark"
           }
         },
@@ -2853,7 +2853,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Date"
           }
         },
@@ -2912,7 +2912,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Date Added"
           }
         },
@@ -2971,7 +2971,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Default"
           }
         },
@@ -3030,7 +3030,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Default style for the app, only includes subtitle."
           }
         },
@@ -3089,7 +3089,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Delete"
           }
         },
@@ -3148,7 +3148,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Delete After Signing"
           }
         },
@@ -3207,7 +3207,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Description"
           }
         },
@@ -3266,7 +3266,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Developer"
           }
         },
@@ -3325,7 +3325,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Discord"
           }
         },
@@ -3385,7 +3385,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Dismiss"
           }
         },
@@ -3444,7 +3444,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Display Names"
           }
         },
@@ -3503,7 +3503,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Do you want to export your certificate to an external app? That app will be able to sign apps using your certificate."
           }
         },
@@ -3562,7 +3562,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Donate"
           }
         },
@@ -3622,7 +3622,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Donations"
           }
         },
@@ -3682,7 +3682,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Download StosVPN"
           }
         },
@@ -3741,7 +3741,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Dylibs"
           }
         },
@@ -3801,7 +3801,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enable Liquid Glass"
           }
         },
@@ -3860,7 +3860,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enabling any protection will append a random string to the bundleidentifiers of the apps you sign, this is to ensure your Apple ID does not get flagged by Apple. However, when using a signing service you can ignore this."
           }
         },
@@ -3920,7 +3920,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enjoying %@?"
           }
         },
@@ -3979,7 +3979,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enter a URL to start validation."
           }
         },
@@ -4038,7 +4038,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enter Password"
           }
         },
@@ -4097,7 +4097,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enter Source URL"
           }
         },
@@ -4156,7 +4156,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Enter the password associated with the private key. Leave it blank if theres no password required."
           }
         },
@@ -4215,7 +4215,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Entitlements"
           }
         },
@@ -4274,7 +4274,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Error"
           }
         },
@@ -4333,7 +4333,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Executable"
           }
         },
@@ -4392,7 +4392,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Existing Dylibs"
           }
         },
@@ -4451,7 +4451,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Experiments"
           }
         },
@@ -4510,7 +4510,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Expired"
           }
         },
@@ -4569,7 +4569,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Expires"
           }
         },
@@ -4629,7 +4629,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Export"
           }
         },
@@ -4688,7 +4688,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Export Certificate"
           }
         },
@@ -4747,7 +4747,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Failed to download, check your internet connection and try again."
           }
         },
@@ -4806,7 +4806,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Featured"
           }
         },
@@ -4865,7 +4865,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Features"
           }
         },
@@ -4925,7 +4925,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "File Sharing"
           }
         },
@@ -4984,7 +4984,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Files"
           }
         },
@@ -5043,7 +5043,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Filter by"
           }
         },
@@ -5102,7 +5102,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Force Localize"
           }
         },
@@ -5161,7 +5161,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Frameworks"
           }
         },
@@ -5220,7 +5220,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Frameworks & PlugIns"
           }
         },
@@ -5279,7 +5279,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Fully Local"
           }
         },
@@ -5338,7 +5338,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Game Mode"
           }
         },
@@ -5397,7 +5397,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "General"
           }
         },
@@ -5509,7 +5509,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Get access to our secret Discord by donating, where we talk about future updates, betas, and potential ways to make your experience better."
           }
         },
@@ -5569,7 +5569,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Get Info"
           }
         },
@@ -5628,7 +5628,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Get started by adding your first repository."
           }
         },
@@ -5687,7 +5687,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Get started by importing your first IPA file."
           }
         },
@@ -5746,7 +5746,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Get started signing by importing your first certificate."
           }
         },
@@ -5805,7 +5805,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "GitHub Repository"
           }
         },
@@ -5864,7 +5864,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to our GitHub and give us a star!"
           }
         },
@@ -5923,7 +5923,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Heartbeat"
           }
         },
@@ -5982,7 +5982,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Help"
           }
         },
@@ -6041,7 +6041,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Hidden"
           }
         },
@@ -6100,7 +6100,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Identifers"
           }
         },
@@ -6159,7 +6159,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Identifier"
           }
         },
@@ -6218,7 +6218,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Identifier Prefix"
           }
         },
@@ -6277,7 +6277,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "idevice"
           }
         },
@@ -6337,7 +6337,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."
           }
         },
@@ -6397,7 +6397,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import"
           }
         },
@@ -6456,7 +6456,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import Certificate File"
           }
         },
@@ -6516,7 +6516,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import from Files"
           }
         },
@@ -6576,7 +6576,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import from URL"
           }
         },
@@ -6635,7 +6635,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import Pairing File"
           }
         },
@@ -6694,7 +6694,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Import Provisioning File"
           }
         },
@@ -6753,7 +6753,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Imported"
           }
         },
@@ -6812,7 +6812,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Info"
           }
         },
@@ -6924,7 +6924,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Injection Folder"
           }
         },
@@ -6983,7 +6983,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Injection Path"
           }
         },
@@ -7042,7 +7042,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Install"
           }
         },
@@ -7154,7 +7154,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Installation"
           }
         },
@@ -7213,7 +7213,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Installation Type"
           }
         },
@@ -7272,7 +7272,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Installing"
           }
         },
@@ -7331,7 +7331,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "iPad Fullscreen"
           }
         },
@@ -7391,7 +7391,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "iTunes File Sharing"
           }
         },
@@ -7450,7 +7450,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Learn more about how to setup a repository…"
           }
         },
@@ -7509,7 +7509,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Less"
           }
         },
@@ -7569,7 +7569,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Library"
           }
         },
@@ -7628,7 +7628,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Library Cell Appearance"
           }
         },
@@ -7687,7 +7687,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Light"
           }
         },
@@ -7747,7 +7747,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimum Requirement"
           }
         },
@@ -7806,7 +7806,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Misc"
           }
         },
@@ -7865,7 +7865,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Modify"
           }
         },
@@ -7924,7 +7924,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "More"
           }
         },
@@ -7983,7 +7983,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Name"
           }
         },
@@ -8042,7 +8042,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New"
           }
         },
@@ -8101,7 +8101,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Certificate"
           }
         },
@@ -8161,7 +8161,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Nickname (Optional)"
           }
         },
@@ -8220,7 +8220,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Apps"
           }
         },
@@ -8279,7 +8279,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Certificate"
           }
         },
@@ -8338,7 +8338,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Certificates"
           }
         },
@@ -8397,7 +8397,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Entitlements listed."
           }
         },
@@ -8456,7 +8456,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No files chosen."
           }
         },
@@ -8515,7 +8515,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Frameworks or PlugIns Found."
           }
         },
@@ -8574,7 +8574,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Icons Found."
           }
         },
@@ -8633,7 +8633,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No pairing file found, please import it."
           }
         },
@@ -8745,7 +8745,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Repositories"
           }
         },
@@ -8804,7 +8804,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "None"
           }
         },
@@ -8863,7 +8863,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "OK"
           }
         },
@@ -8922,7 +8922,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Only use localhost address"
           }
         },
@@ -8981,7 +8981,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open"
           }
         },
@@ -9040,7 +9040,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open an [issue](https://github.com/khcrysalis/Feather/issues) on GitHub if you want your source to be featured."
           }
         },
@@ -9099,7 +9099,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open Archives"
           }
         },
@@ -9158,7 +9158,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open Certificates"
           }
         },
@@ -9217,7 +9217,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open Documents"
           }
         },
@@ -9276,7 +9276,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Open in Files"
           }
         },
@@ -9335,7 +9335,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Other"
           }
         },
@@ -9394,7 +9394,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Packaging"
           }
         },
@@ -9453,7 +9453,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pairing File Guide"
           }
         },
@@ -9512,7 +9512,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Password"
           }
         },
@@ -9571,7 +9571,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Permissions"
           }
         },
@@ -9630,7 +9630,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Platform"
           }
         },
@@ -9690,7 +9690,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check the password and try again."
           }
         },
@@ -9749,7 +9749,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please go to settings and import a valid certificate"
           }
         },
@@ -9808,7 +9808,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Post Signing"
           }
         },
@@ -9867,7 +9867,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "PPQ Protection"
           }
         },
@@ -9926,7 +9926,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "PPQCheck"
           }
         },
@@ -9986,7 +9986,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Previous Versions"
           }
         },
@@ -10045,7 +10045,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pro Motion"
           }
         },
@@ -10105,7 +10105,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Proceed"
           }
         },
@@ -10165,7 +10165,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Properties"
           }
         },
@@ -10224,7 +10224,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Protection"
           }
         },
@@ -10283,7 +10283,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Provision All Devices"
           }
         },
@@ -10342,7 +10342,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Provisioned Devices"
           }
         },
@@ -10401,7 +10401,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Re-sign"
           }
         },
@@ -10460,7 +10460,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ready"
           }
         },
@@ -10519,7 +10519,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Removal"
           }
         },
@@ -10578,7 +10578,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Remove annoying alerts like these after getting beta access!"
           }
         },
@@ -10637,7 +10637,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Remove Provisioning"
           }
         },
@@ -10696,7 +10696,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Remove this Alert"
           }
         },
@@ -10755,7 +10755,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Remove URL Scheme"
           }
         },
@@ -10814,7 +10814,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Remove Watch Placeholder"
           }
         },
@@ -10873,7 +10873,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Removing the provisioning file will exclude the mobileprovision file from being embedded inside of the application when signing, to help prevent any detection."
           }
         },
@@ -10932,7 +10932,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Replace Substrate with ElleKit"
           }
         },
@@ -10991,7 +10991,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Replacement"
           }
         },
@@ -11050,7 +11050,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Repositories"
           }
         },
@@ -11109,7 +11109,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Repository already added."
           }
         },
@@ -11168,7 +11168,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset"
           }
         },
@@ -11227,7 +11227,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset All"
           }
         },
@@ -11286,7 +11286,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Certificates"
           }
         },
@@ -11345,7 +11345,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Imported Apps"
           }
         },
@@ -11404,7 +11404,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Network Cache"
           }
         },
@@ -11463,7 +11463,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Settings"
           }
         },
@@ -11522,7 +11522,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Signed Apps"
           }
         },
@@ -11581,7 +11581,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Sources"
           }
         },
@@ -11640,7 +11640,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset the applications sources, certificates, apps, and general contents."
           }
         },
@@ -11699,7 +11699,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reset Work Cache"
           }
         },
@@ -11758,7 +11758,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Restart Heartbeat"
           }
         },
@@ -11817,7 +11817,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Restart Required"
           }
         },
@@ -11876,7 +11876,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Revoked"
           }
         },
@@ -11935,7 +11935,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Save"
           }
         },
@@ -11994,7 +11994,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Screenshots"
           }
         },
@@ -12054,7 +12054,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "See all apps from your sources"
           }
         },
@@ -12113,7 +12113,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Seems like you've gotten your hands on your pairing file!"
           }
         },
@@ -12173,7 +12173,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Alternative Icon"
           }
         },
@@ -12233,7 +12233,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select entitlements file"
           }
         },
@@ -12292,7 +12292,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Semi Local"
           }
         },
@@ -12351,7 +12351,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Sending Manifest"
           }
         },
@@ -12410,7 +12410,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Sending Payload"
           }
         },
@@ -12469,7 +12469,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Server"
           }
         },
@@ -12528,7 +12528,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Server (Recommended):\nUses a locally hosted server and itms-services:// to install applications.\n\nIDevice (advanced):\nUses a VPN and a pairing file. Writes to AFC and manually calls installd, while monitoring install progress by using a callback\nAdvantage: It is very reliable, does not need SSL certificates or a externally hosted server. Rather, works similarly to a computer."
           }
         },
@@ -12587,7 +12587,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Server & SSL"
           }
         },
@@ -12646,7 +12646,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Server Type"
           }
         },
@@ -12706,7 +12706,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Settings"
           }
         },
@@ -12766,7 +12766,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Show Sheet when Exporting"
           }
         },
@@ -12825,7 +12825,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Show Your Support"
           }
         },
@@ -12884,7 +12884,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Show your support by donating! If you're unable to donate, spreading the word works too!"
           }
         },
@@ -12943,7 +12943,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Sign"
           }
         },
@@ -13002,7 +13002,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signed"
           }
         },
@@ -13061,7 +13061,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signing"
           }
         },
@@ -13120,7 +13120,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signing Options"
           }
         },
@@ -13179,7 +13179,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signing Type"
           }
         },
@@ -13238,7 +13238,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Size"
           }
         },
@@ -13297,7 +13297,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Source"
           }
         },
@@ -13356,7 +13356,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Source URL"
           }
         },
@@ -13416,7 +13416,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Sources"
           }
         },
@@ -13475,7 +13475,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Speed"
           }
         },
@@ -13534,7 +13534,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Sponsors"
           }
         },
@@ -13593,7 +13593,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "SSL Certificates"
           }
         },
@@ -13652,7 +13652,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Standard"
           }
         },
@@ -13711,7 +13711,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Start Signing"
           }
         },
@@ -13770,7 +13770,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Store Cell Appearance"
           }
         },
@@ -13829,7 +13829,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "String"
           }
         },
@@ -13888,7 +13888,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Submit Feedback"
           }
         },
@@ -13947,7 +13947,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Supports importing from KravaSign/MapleSign and ESign."
           }
         },
@@ -14006,7 +14006,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Team Identifiers"
           }
         },
@@ -14065,7 +14065,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Team Name"
           }
         },
@@ -14124,7 +14124,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "The heartbeat is activated in the background, it will restart when the app is re-opened or prompted. If the status below is pulsing, that means its healthy."
           }
         },
@@ -14183,7 +14183,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "The only supported repositories are AltStore repositories."
           }
         },
@@ -14242,7 +14242,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Theme"
           }
         },
@@ -14301,7 +14301,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "These changes require a restart of the app"
           }
         },
@@ -14359,7 +14359,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "This action cannot be undone. Would you like to proceed?"
           }
         },
@@ -14418,7 +14418,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "This allows you to set rules for automatically replacing the Bundle ID/Display Name when signing an app."
           }
         },
@@ -14477,7 +14477,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "This enables liquid glass for this app, this requires a restart of the app to take effect."
           }
         },
@@ -14536,7 +14536,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks."
           }
         },
@@ -14595,7 +14595,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "This will delete your imported application after signing, to save on using unneeded space."
           }
         },
@@ -14654,7 +14654,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Toggling show sheet will present a share sheet after exporting to your files."
           }
         },
@@ -14713,7 +14713,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Tunnel & Pairing"
           }
         },
@@ -14773,7 +14773,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Tweaks"
           }
         },
@@ -14833,7 +14833,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown"
           }
         },
@@ -14892,7 +14892,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Update SSL Certificates"
           }
         },
@@ -14951,7 +14951,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Updated"
           }
         },
@@ -15010,7 +15010,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "URL"
           }
         },
@@ -15070,7 +15070,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Value"
           }
         },
@@ -15129,7 +15129,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Version"
           }
         },
@@ -15189,7 +15189,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Version %@"
           }
         },
@@ -15248,7 +15248,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Version History"
           }
         },
@@ -15308,7 +15308,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "View Entitlements"
           }
         },
@@ -15368,7 +15368,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Visit Patreon"
           }
         },
@@ -15428,7 +15428,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Visit Website"
           }
         },
@@ -15487,7 +15487,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "What's New"
           }
         },
@@ -15546,7 +15546,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "You cannot update ‘%@‘ with itself, please use an alternative tool to update it."
           }
         },
@@ -15605,7 +15605,7 @@
         },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file."
           }
         },
