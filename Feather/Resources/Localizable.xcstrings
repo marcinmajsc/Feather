@@ -4302,7 +4302,8 @@
             "value" : "开发者"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Discord" : {
       "extractionState" : "manual",
@@ -7739,7 +7740,8 @@
             "value" : "心跳检测"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Help" : {
       "extractionState" : "manual",
@@ -11477,7 +11479,8 @@
             "value" : "OK"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Only use localhost address" : {
       "extractionState" : "manual",
