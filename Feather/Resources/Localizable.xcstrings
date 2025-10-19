@@ -303,7 +303,7 @@
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "%lld Days"
                 }
               }
@@ -7134,6 +7134,12 @@
             "value" : "Get"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "new",
@@ -8981,6 +8987,12 @@
             "value" : "Information"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "new",
@@ -9283,6 +9295,12 @@
             "value" : "Install After Signing"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install After Signing"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "new",
@@ -9333,8 +9351,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Install After Signing"
+            "state" : "translated",
+            "value" : "签名后安装"
           }
         }
       }
@@ -11357,6 +11375,12 @@
         "de" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "No Privacy Permissions listed."
           }
         },
