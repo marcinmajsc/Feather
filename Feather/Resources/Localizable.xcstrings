@@ -225,7 +225,7 @@
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "%lld Days"
                 }
               }
@@ -5388,6 +5388,12 @@
     "Get" : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6743,6 +6749,12 @@
     "Information" : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6955,6 +6967,18 @@
     "Install After Signing" : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install After Signing"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj po podpisaniu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6965,17 +6989,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "签名后安装"
-          }
-        }
-      }
-    },
-    "Install After Signing" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt sau khi ký"
           }
         }
       }
@@ -8383,6 +8396,12 @@
     "No Privacy Permissions listed." : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Privacy Permissions listed."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
