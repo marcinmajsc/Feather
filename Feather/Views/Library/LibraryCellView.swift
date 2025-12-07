@@ -135,7 +135,7 @@ extension LibraryCellView {
 					UIApplication.openApp(with: id)
 				}
 			}
-			Button(.localized("Install"), systemImage: "square.and.arrow.down") {
+			Button(.localized("Install"), systemImage: "apps.iphone.badge.plus") {
 				selectedInstallAppPresenting = AnyApp(base: app)
 			}
 			Button(.localized("Re-sign"), systemImage: "signature") {
@@ -145,7 +145,7 @@ extension LibraryCellView {
 				selectedInstallAppPresenting = AnyApp(base: app, archive: true)
 			}
 		} else {
-			Button(.localized("Install"), systemImage: "square.and.arrow.down") {
+			Button(.localized("Install"), systemImage: "apps.iphone.badge.plus") {
 				selectedInstallAppPresenting = AnyApp(base: app)
 			}
 			Button(.localized("Sign"), systemImage: "signature") {
