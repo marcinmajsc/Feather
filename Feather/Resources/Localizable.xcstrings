@@ -6968,10 +6968,27 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+<<<<<<< main
           "stringUnit" : {
             "state" : "translated",
             "value" : "Install After Signing"
           }
+        },
+        "vi" : {
+=======
+>>>>>>> test2
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install After Signing"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj po podpisaniu"
+          }
+<<<<<<< main
+=======
         },
         "vi" : {
           "stringUnit" : {
@@ -6984,6 +7001,7 @@
             "state" : "translated",
             "value" : "签名后安装"
           }
+>>>>>>> test2
         }
       }
     },
@@ -13915,37 +13933,37 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Dies wird deine importierte Datei nach der Signierung löschen, um an unnötigen Speicher zu sparen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will delete your imported application after signing, to save on using unneeded space."
+            "value" : "This will delete/install your imported application after signing, to save on using unneeded space."
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Questo elimina l'applicazione importata dopo la firma, per salvare spazio usato inutilmente."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spowoduje to usunięcie zaimportowanej aplikacji po jej podpisaniu, co pozwoli zwolnić miejsce."
+            "value" : "Spowoduje to usunięcie/zainstalowanie zaimportowanej aplikacji po jej podpisaniu, co pozwoli zwolnić miejsce."
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Bu, imzaladıktan sonra içe aktarılan uygulamayı silerek gereksiz alanı geri kazanmanıza yardımcı olur."
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Thao tác này sẽ xóa ứng dụng đã nhập của bạn sau khi ký, để tiết kiệm dung lượng không cần thiết."
           }
         },
