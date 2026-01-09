@@ -1515,6 +1515,23 @@
         }
       }
     },
+    "Auto-select Matching Certificate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto-select Matching Certificate"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatyczny wybór pasującego certyfikatu"
+          }
+        }
+      }
+    },
     "Bad Password" : {
       "comment" : "Bad certificate password",
       "extractionState" : "manual",
@@ -2548,6 +2565,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "调整应用的安装方式、压缩等级并对应用自定义。"
+          }
+        }
+      }
+    },
+    "Connect to LocalDevVPN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect to LocalDevVPN"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Połącz do LocalDevVPN"
           }
         }
       }
@@ -3635,6 +3669,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "捐赠"
+          }
+        }
+      }
+    },
+    "Download LocalDevVPN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download LocalDevVPN"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobierz LocalDevVPN"
           }
         }
       }
@@ -6960,6 +7011,12 @@
             "value" : "Install After Signing"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj po podpisaniu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7265,6 +7322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Join Us on Discord"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołącz do nas na Discordzie"
           }
         },
         "vi" : {
@@ -8463,6 +8526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No sources to copy"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak źródeł do skopiowania"
           }
         },
         "vi" : {
@@ -12835,6 +12904,12 @@
             "value" : "Sources copied to clipboard"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Źródła skopiowane do schowka"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14740,6 +14815,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新内容"
+          }
+        }
+      }
+    },
+    "When enabled, Feather will automatically select the certificate whose application-identifier exactly matches the target bundle identifier." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When enabled, Feather will automatically select the certificate whose application-identifier exactly matches the target bundle identifier."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy włączone, Feather automatycznie wybierze certyfikat, którego application-identifier dokładnie odpowiada docelowemu identyfikatorowi pakietu (bundle identifier)."
           }
         }
       }
