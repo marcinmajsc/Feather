@@ -54,7 +54,7 @@ struct CertificatesView: View {
 		NBGrid {
             ForEach(_filteredCertificates, id: \.uuid) { cert in
                 if let originalIndex = _originalIndex(for: cert) {
-                    _cellButton(for: cert, originalIndex: originalIndex)
+                    _cellButton(for: cert, at: originalIndex)
                 }
             }
 		}
