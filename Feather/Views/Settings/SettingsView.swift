@@ -13,7 +13,27 @@ import IDeviceSwift
 
 // MARK: - View
 struct SettingsView: View {
+	@AppStorage("feather.selectedCert") private var _storedSelectedCert: Int = 0
     @State private var _currentIcon: String? = UIApplication.shared.alternateIconName
+	@Environment(\.colorScheme) private var colorScheme
+	
+	// MARK: Fetch
+	@FetchRequest(
+		entity: CertificatePair.entity(),
+		sortDescriptors: [NSSortDescriptor(keyPath: \CertificatePair.date, ascending: false)],
+		animation: .snappy
+	) private var _certificates: FetchedResults<CertificatePair>
+	
+	private var selectedCertificate: CertificatePair? {
+		guard
+			_storedSelectedCert >= 0,
+			_storedSelectedCert < _certificates.count
+		else {
+			return nil
+		}
+		return _certificates[_storedSelectedCert]
+	}
+
     
     private let _donationsUrl = "https://github.com/sponsors/khcrysalis"
     private let _githubUrl = "https://github.com/khcrysalis/Feather"
@@ -38,10 +58,24 @@ struct SettingsView: View {
 					}
                 }
                 
-                NBSection(.localized("Features")) {
+                NBSection(.localized("Certificates")) {
+                    
+                    if let cert = selectedCertificate {
+                        CertificatesCellView(cert: cert)
+                    } else {
+                        Text(.localized("No Certificate"))
+                            .font(.footnote)
+                            .foregroundColor(.disabled())
+                    }
                     NavigationLink(destination: CertificatesView()) {
                         Label(.localized("Certificates"), systemImage: "checkmark.seal")
                     }
+                 
+                } footer: {
+                    Text(.localized("Add and manage certificates used for signing applications."))
+                }
+                
+                NBSection(.localized("Features")) {
                     NavigationLink(destination: ConfigurationView()) {
                         Label(.localized("Signing Options"), systemImage: "signature")
                     }
@@ -49,7 +83,7 @@ struct SettingsView: View {
                         Label(.localized("Archive & Compression"), systemImage: "doc.zipper")
                     }
                     NavigationLink(destination: InstallationView()) {
-                        Label(.localized("Installation"), systemImage: "plus.app")
+                        Label(.localized("Installation"), systemImage: "arrow.down.app")
                     }
                 } footer: {
                     Text(.localized("Configure the apps way of installing, its zip compression levels, and custom modifications to apps."))
@@ -104,7 +138,15 @@ extension SettingsView {
                 Label {
                     Text(.localized("GitHub Repository"))
                 } icon: {
-                    Image("github")
+                    ZStack {
+                        Image("github")
+                            .renderingMode(.template)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(.primary)
+                    }
+                    .frame(width: 23, height: 23)
                 }
             }
 			Button {
@@ -113,7 +155,30 @@ extension SettingsView {
 				Label {
 					Text(.localized("Join Us on Discord"))
 				} icon: {
-					Image("discord")
+					ZStack {
+						RoundedRectangle(cornerRadius: 6)
+						.fill(
+							  Color(.sRGB,
+									red: colorScheme == .dark ? 88/255 : 224/255,
+									green: colorScheme == .dark ? 101/255 : 227/255,
+									blue: colorScheme == .dark ? 242/255 : 255/255,
+									opacity: 1)
+						)
+
+						Image("discord")
+						.renderingMode(.template)
+						.resizable()
+						.scaledToFit()
+						.frame(width: 17, height: 17)
+						.foregroundColor(
+									Color(.sRGB,
+										  red: colorScheme == .dark ? 224/255 : 88/255,
+										  green: colorScheme == .dark ? 227/255 : 101/255,
+										  blue: colorScheme == .dark ? 255/255 : 242/255,
+										  opacity: 1)
+						)
+					}
+					.frame(width: 23, height: 23)
 				}
 			}
         } footer: {
