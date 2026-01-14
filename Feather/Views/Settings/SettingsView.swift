@@ -83,7 +83,7 @@ struct SettingsView: View {
                         Label(.localized("Archive & Compression"), systemImage: "doc.zipper")
                     }
                     NavigationLink(destination: InstallationView()) {
-                        Label(.localized("Installation"), systemImage: "plus.app")
+                        Label(.localized("Installation"), systemImage: "arrow.down.app")
                     }
                 } footer: {
                     Text(.localized("Configure the apps way of installing, its zip compression levels, and custom modifications to apps."))
