@@ -15,6 +15,7 @@ import IDeviceSwift
 struct SettingsView: View {
 	@AppStorage("feather.selectedCert") private var _storedSelectedCert: Int = 0
     @State private var _currentIcon: String? = UIApplication.shared.alternateIconName
+	@Environment(\.colorScheme) private var colorScheme
 	
 	// MARK: Fetch
 	@FetchRequest(
@@ -131,11 +132,54 @@ extension SettingsView {
 					actions: [bugAction, chooseAction]
 				)
             }
-            Button(.localized("GitHub Repository"), systemImage: "safari") {
+            Button {
                 UIApplication.open(_githubUrl)
+            } label: {
+                Label {
+                    Text(.localized("GitHub Repository"))
+                } icon: {
+                    ZStack {
+                        Image("github")
+                            .renderingMode(.template)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(.primary)
+                    }
+                    .frame(width: 23, height: 23)
+                }
             }
-			Button(.localized("Join Us on Discord"), systemImage: "safari") {
+			Button {
 				UIApplication.open(_discordServer)
+			} label: {
+				Label {
+					Text(.localized("Join Us on Discord"))
+				} icon: {
+					ZStack {
+						RoundedRectangle(cornerRadius: 6)
+						.fill(
+							  Color(.sRGB,
+									red: colorScheme == .dark ? 88/255 : 224/255,
+									green: colorScheme == .dark ? 101/255 : 227/255,
+									blue: colorScheme == .dark ? 242/255 : 255/255,
+									opacity: 1)
+						)
+
+						Image("discord")
+						.renderingMode(.template)
+						.resizable()
+						.scaledToFit()
+						.frame(width: 17, height: 17)
+						.foregroundColor(
+									Color(.sRGB,
+										  red: colorScheme == .dark ? 224/255 : 88/255,
+										  green: colorScheme == .dark ? 227/255 : 101/255,
+										  blue: colorScheme == .dark ? 255/255 : 242/255,
+										  opacity: 1)
+						)
+					}
+					.frame(width: 23, height: 23)
+				}
 			}
         } footer: {
             Text(.localized("If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."))
