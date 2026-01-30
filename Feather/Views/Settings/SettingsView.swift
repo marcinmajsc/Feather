@@ -15,7 +15,6 @@ import IDeviceSwift
 struct SettingsView: View {
 	@AppStorage("feather.selectedCert") private var _storedSelectedCert: Int = 0
     @State private var _currentIcon: String? = UIApplication.shared.alternateIconName
-	@Environment(\.colorScheme) private var colorScheme
 	
 	// MARK: Fetch
 	@FetchRequest(
@@ -37,7 +36,6 @@ struct SettingsView: View {
     
     private let _donationsUrl = "https://github.com/sponsors/khcrysalis"
     private let _githubUrl = "https://github.com/khcrysalis/Feather"
-	private let _discordServer = "https://discord.gg/TYnUDJkG66"
     
     // MARK: Body
     var body: some View {
@@ -80,10 +78,10 @@ struct SettingsView: View {
                         Label(.localized("Signing Options"), systemImage: "signature")
                     }
                     NavigationLink(destination: ArchiveView()) {
-                        Label(.localized("Archive & Compression"), systemImage: "doc.zipper")
+                        Label(.localized("Archive & Compression"), systemImage: "archivebox")
                     }
                     NavigationLink(destination: InstallationView()) {
-                        Label(.localized("Installation"), systemImage: "arrow.down.app")
+                        Label(.localized("Installation"), systemImage: "arrow.down.circle")
                     }
                 } footer: {
                     Text(.localized("Configure the apps way of installing, its zip compression levels, and custom modifications to apps."))
@@ -117,7 +115,7 @@ extension SettingsView {
                 }
             }
             
-            Button(.localized("Submit Feedback"), systemImage: "square.text.square") {
+            Button(.localized("Submit Feedback"), systemImage: "safari") {
 				let bugAction: UIAlertAction = .init(title: .localized("Bug Report"), style: .default) { _ in
 					UIApplication.open(_makeGitHubIssueURL(url: _githubUrl))
 				}
@@ -132,55 +130,9 @@ extension SettingsView {
 					actions: [bugAction, chooseAction]
 				)
             }
-            Button {
+            Button(.localized("GitHub Repository"), systemImage: "safari") {
                 UIApplication.open(_githubUrl)
-            } label: {
-                Label {
-                    Text(.localized("GitHub Repository"))
-                } icon: {
-                    ZStack {
-                        Image("github")
-                            .renderingMode(.template)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 20, height: 20)
-                            .foregroundColor(.primary)
-                    }
-                    .frame(width: 23, height: 23)
-                }
             }
-			Button {
-				UIApplication.open(_discordServer)
-			} label: {
-				Label {
-					Text(.localized("Join Us on Discord"))
-				} icon: {
-					ZStack {
-						RoundedRectangle(cornerRadius: 6)
-						.fill(
-							  Color(.sRGB,
-									red: colorScheme == .dark ? 88/255 : 224/255,
-									green: colorScheme == .dark ? 101/255 : 227/255,
-									blue: colorScheme == .dark ? 242/255 : 255/255,
-									opacity: 1)
-						)
-
-						Image("discord")
-						.renderingMode(.template)
-						.resizable()
-						.scaledToFit()
-						.frame(width: 17, height: 17)
-						.foregroundColor(
-									Color(.sRGB,
-										  red: colorScheme == .dark ? 224/255 : 88/255,
-										  green: colorScheme == .dark ? 227/255 : 101/255,
-										  blue: colorScheme == .dark ? 255/255 : 242/255,
-										  opacity: 1)
-						)
-					}
-					.frame(width: 23, height: 23)
-				}
-			}
         } footer: {
             Text(.localized("If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."))
         }

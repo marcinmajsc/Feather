@@ -135,6 +135,9 @@
 - (NSUInteger) _IS_platformToIFPlatform {
     return 4;
 }
+- (int)developerType {
+	return 0;
+}
 - (id)appClipMetadata {
     return nil;
 }
@@ -229,7 +232,9 @@ UIImage* iconTest(NSURL *bundleURL) {
 
     if (@available(iOS 18.0, *)) {
         // 0 = normal, 2 = tinted mode, 3 = liquid glass (gray scale)
-		descriptor.appearanceVariant = (variant == 0) ? 0 : 2;
+		if (@available(iOS 18.2, *)) {
+			descriptor.appearanceVariant = (variant == 0) ? 0 : 2;
+		}
         descriptor.specialIconOptions = 2;
     }
 
