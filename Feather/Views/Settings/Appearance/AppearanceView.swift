@@ -18,12 +18,25 @@ struct AppearanceView: View {
 	@AppStorage("Feather.shouldTintIcons")
 	private var _shouldTintIcons: Bool = false
 	
+	@AppStorage("Feather.shouldChangeIconsBasedOffStyle")
+	private var _shouldChangeIconsBasedOffStyle: Bool = false
+	
 	@AppStorage("Feather.storeCellAppearance")
 	private var _storeCellAppearance: Int = 0
 	private let _storeCellAppearanceMethods: [(name: String, desc: String)] = [
 		(.localized("Standard"), .localized("Default style for the app, only includes subtitle.")),
 		(.localized("Big Description"), .localized("Adds the localized description of the app."))
 	]
+	
+	@AppStorage("Feather.userTintColor")
+	private var _selectedColorHex: String = "#848ef9"
+	
+	private var _tintColorBinding: Binding<Color> {
+		Binding(
+			get: { Color(hex: _selectedColorHex) },
+			set: { _selectedColorHex = $0.toHex() }
+		)
+	}
 	
 	// MARK: Body
     var body: some View {
@@ -42,9 +55,21 @@ struct AppearanceView: View {
 					.listRowInsets(EdgeInsets())
 					.listRowBackground(EmptyView())
 			}
-			if #available(iOS 18.2, *) {
-				Section {
-					Toggle("Tint App Icons", isOn: $_shouldTintIcons)
+			
+			Section {
+				ColorPicker(
+					.localized("Custom Theme Color"),
+					selection: _tintColorBinding,
+					supportsOpacity: false
+				)
+			}
+			
+			if #available(iOS 18.0, *) {
+				NBSection(.localized("Library")) {
+					Toggle(.localized("Dynamic Icons"), isOn: $_shouldChangeIconsBasedOffStyle)
+					if #available(iOS 18.2, *) {
+						Toggle(.localized("Tinted Icons"), isOn: $_shouldTintIcons)
+					}
 				}
 			}
 			
