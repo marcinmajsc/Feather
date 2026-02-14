@@ -2174,6 +2174,12 @@
             "value" : "Certificates updated successfully."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Certyfikaty zaktualizowano pomyślnie."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2846,6 +2852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Custom Theme Color"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niestandardowy Kolor Motywu"
           }
         },
         "vi" : {
@@ -3879,6 +3891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dynamic Icons"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamiczne Ikony"
           }
         },
         "vi" : {
@@ -14179,6 +14197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tinted Icons"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barwione Ikony"
           }
         },
         "vi" : {
