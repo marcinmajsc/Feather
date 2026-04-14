@@ -13,8 +13,11 @@ struct CertificatesView: View {
 	@AppStorage("feather.selectedCert") private var _storedSelectedCert: Int = 0
 	
 	@State private var _isAddingPresenting = false
+	@State private var _isRenamingPresenting = false
 	@State private var _isSelectedInfoPresenting: CertificatePair?
-    @State private var _searchText: String = ""
+	@State private var _certToRename: CertificatePair?
+	@State private var _newNickname: String = ""
+  @State private var _searchText: String = ""
 
 	// MARK: Fetch
 	@FetchRequest(
@@ -96,6 +99,14 @@ struct CertificatesView: View {
 			CertificatesAddView()
 				.presentationDetents([.medium])
 		}
+		.alert(.localized("Change Nickname"), isPresented: $_isRenamingPresenting, presenting: _certToRename) { cert in
+			TextField(.localized("Nickname"), text: $_newNickname)
+			Button(.localized("Cancel"), role: .cancel) { }
+			Button(.localized("OK")) {
+				cert.nickname = _newNickname.isEmpty ? nil : _newNickname
+				Storage.shared.saveContext()
+			}
+		}
 	}
 }
 
@@ -158,6 +169,11 @@ extension CertificatesView {
 	private func _contextActions(for cert: CertificatePair) -> some View {
 		Button(.localized("Get Info"), systemImage: "info.circle") {
 			_isSelectedInfoPresenting = cert
+		}
+		Button(.localized("Change Nickname"), systemImage: "pencil") {
+			_newNickname = cert.nickname ?? ""
+			_certToRename = cert
+			_isRenamingPresenting = true
 		}
 		Divider()
 		Button(.localized("Check Revokage"), systemImage: "person.text.rectangle") {
