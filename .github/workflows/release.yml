@@ -1,6 +1,9 @@
-name: Create New Release
+name: Release
 
 on:
+  push:
+    tags:
+      - v*
   workflow_dispatch:
     inputs:
       version:
@@ -34,7 +37,7 @@ jobs:
           name: Feather v${{ github.event.inputs.version }}
           tag_name: v${{ github.event.inputs.version }}
           files: |
-            upload/*ipa
+            upload/*
           generate_release_notes: true
           fail_on_unmatched_files: true
           draft: true
