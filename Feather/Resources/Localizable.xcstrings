@@ -2493,6 +2493,23 @@
         }
       }
     },
+    "Change Nickname" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Nickname"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień nazwę"
+          }
+        }
+      }
+    },
     "Check Revokage" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -7701,6 +7718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inject into Extensions"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Załaduj do rozszerzeń"
           }
         }
       }
