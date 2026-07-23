@@ -28,7 +28,7 @@ jobs:
           mv packages/* upload/
 
       - name: Create Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3.0.2
         with:
           name: Feather v${{ github.event.inputs.version }}
           tag_name: v${{ github.event.inputs.version }}
