@@ -21,6 +21,7 @@ jobs:
 
       - name: Compile Feather
         run: | 
+          wget "https://raw.githubusercontent.com/claration/Zsign-Package/6ffe703df73ef9069adacdbb19d571f11a69a801/LICENSE_LC" -O Zsign/LICENSE_LC
           agvtool new-version -all $(git rev-parse HEAD)
           sed -i '' -E "s/(\t*MARKETING_VERSION *= *)[^ ;]+(;)/\1${{ github.event.inputs.version }}\2/" ./Feather.xcodeproj/project.pbxproj
           make
