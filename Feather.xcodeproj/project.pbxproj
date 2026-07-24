@@ -12,7 +12,6 @@
 		330F68FE2DBF7C8600D8C35D /* NimbleViews in Frameworks */ = {isa = PBXBuildFile; productRef = 330F68FD2DBF7C8600D8C35D /* NimbleViews */; };
 		330F69012DC03DF500D8C35D /* NimbleExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 330F69002DC03DF500D8C35D /* NimbleExtensions */; };
 		330F69032DC03DF500D8C35D /* NimbleViews in Frameworks */ = {isa = PBXBuildFile; productRef = 330F69022DC03DF500D8C35D /* NimbleViews */; };
-		3346F5C22DC329A200C7D508 /* ZsignSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3346F5C12DC329A200C7D508 /* ZsignSwift */; };
 		3346F83B2DC6C6D100C7D508 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3346F83A2DC6C6D100C7D508 /* NukeUI */; };
 		3346F8492DC6D64800C7D508 /* NimbleJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3346F8482DC6D64800C7D508 /* NimbleJSON */; };
 		3349E7672DEFB46F00E317ED /* IDeviceSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3349E7662DEFB46F00E317ED /* IDeviceSwift */; };
@@ -21,6 +20,7 @@
 		3371F7322DA9ECDD00281AC6 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 3371F7312DA9ECDD00281AC6 /* Zip */; };
 		33CF13392DB5ACFB0021D4C5 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 33CF13382DB5ACFB0021D4C5 /* SWCompression */; };
 		570920BE2F98A4F0008C4A83 /* Feather.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 570920BD2F98A4F0008C4A83 /* Feather.xcconfig */; };
+		8D43C9533013832B00B37EC5 /* Zsign in Frameworks */ = {isa = PBXBuildFile; productRef = 8D43C9523013832B00B37EC5 /* Zsign */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,12 +69,12 @@
 			files = (
 				330F68FE2DBF7C8600D8C35D /* NimbleViews in Frameworks */,
 				330F68FC2DBF7C8600D8C35D /* NimbleExtensions in Frameworks */,
-				3346F5C22DC329A200C7D508 /* ZsignSwift in Frameworks */,
 				3346F8492DC6D64800C7D508 /* NimbleJSON in Frameworks */,
 				330F69012DC03DF500D8C35D /* NimbleExtensions in Frameworks */,
 				3349E7672DEFB46F00E317ED /* IDeviceSwift in Frameworks */,
 				33CF13392DB5ACFB0021D4C5 /* SWCompression in Frameworks */,
 				33693A082DC8BF5B00730215 /* AltSourceKit in Frameworks */,
+				8D43C9533013832B00B37EC5 /* Zsign in Frameworks */,
 				3371F7322DA9ECDD00281AC6 /* Zip in Frameworks */,
 				330F69032DC03DF500D8C35D /* NimbleViews in Frameworks */,
 				3305BBAC2DB8944200660D45 /* Vapor in Frameworks */,
@@ -141,11 +141,11 @@
 				330F68FD2DBF7C8600D8C35D /* NimbleViews */,
 				330F69002DC03DF500D8C35D /* NimbleExtensions */,
 				330F69022DC03DF500D8C35D /* NimbleViews */,
-				3346F5C12DC329A200C7D508 /* ZsignSwift */,
 				3346F83A2DC6C6D100C7D508 /* NukeUI */,
 				3346F8482DC6D64800C7D508 /* NimbleJSON */,
 				33693A072DC8BF5B00730215 /* AltSourceKit */,
 				3349E7662DEFB46F00E317ED /* IDeviceSwift */,
+				8D43C9523013832B00B37EC5 /* Zsign */,
 			);
 			productName = Feather;
 			productReference = 3379C1B92DA869A1004372DA /* Feather.app */;
@@ -360,7 +360,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
-                GCC_PREPROCESSOR_DEFINITIONS = (
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NIGHTLY=1",
 					"$(inherited)",
 				);
@@ -373,7 +373,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "NIGHTLY $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "NIGHTLY $(inherited)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -617,10 +617,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = NimbleViews;
 		};
-		3346F5C12DC329A200C7D508 /* ZsignSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ZsignSwift;
-		};
 		3346F83A2DC6C6D100C7D508 /* NukeUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3346F8372DC6C68300C7D508 /* XCRemoteSwiftPackageReference "Nuke" */;
@@ -652,6 +648,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 33CF13372DB5ACFB0021D4C5 /* XCRemoteSwiftPackageReference "SWCompression" */;
 			productName = SWCompression;
+		};
+		8D43C9523013832B00B37EC5 /* Zsign */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3371F5152DA91FDC00281AC6 /* XCLocalSwiftPackageReference "Zsign" */;
+			productName = Zsign;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
