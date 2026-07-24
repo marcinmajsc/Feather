@@ -2794,6 +2794,12 @@
             "state" : "translated",
             "value" : "Check for Updates"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprawdź aktualizacje"
+          }
         }
       }
     },
@@ -4238,6 +4244,12 @@
             "state" : "translated",
             "value" : "Disable Liquid Glass"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyłącz Liquid Glass"
+          }
         }
       }
     },
@@ -4729,6 +4741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Download Update"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobierz aktualizację"
           }
         }
       }
@@ -8887,6 +8905,12 @@
             "state" : "translated",
             "value" : "Install Current Version"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj bieżącą wersję"
+          }
         }
       }
     },
@@ -9359,6 +9383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "적게"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mniej"
           }
         },
         "tr" : {
@@ -17907,6 +17937,12 @@
             "state" : "translated",
             "value" : "Update"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizuj"
+          }
         }
       }
     },
@@ -17917,6 +17953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update Available"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępna aktualizacja"
           }
         }
       }
