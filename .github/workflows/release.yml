@@ -23,29 +23,23 @@ jobs:
         run: |
           sudo xcode-select -s /Applications/Xcode_27.0.app/Contents/Developer
 
-      - name: Build
+      - name: Compile Feather
         run: | 
           agvtool new-version -all $(git rev-parse HEAD)
           sed -i '' -E "s/(\t*MARKETING_VERSION *= *)[^ ;]+(;)/\1${{ github.event.inputs.version }}\2/" ./Feather.xcodeproj/project.pbxproj
           make
-
-      - name: Get Version
-        id: get_version
-        run: |
-          VERSION=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" _build/Payload/*.app/Info.plist)
-          echo "VERSION=${VERSION}" >> $GITHUB_ENV
+          mkdir upload
+          mv packages/* upload/
 
       - name: Create Release
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v3.0.2
+        uses: softprops/action-gh-release@v3.0.2
         with:
           name: Feather v${{ github.event.inputs.version }}
           tag_name: v${{ github.event.inputs.version }}
           files: |
-            packages/*
+            upload/*
           generate_release_notes: true
           fail_on_unmatched_files: true
           draft: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
