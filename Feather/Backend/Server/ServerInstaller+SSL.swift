@@ -69,17 +69,26 @@ extension ServerInstaller {
 		return (certificateURL, privateKeyURL)
 	}
 	
-	static func rootCertificateDataURL() throws -> URL {
+	static func rootCertificateProfileData() throws -> Data {
 		let root = try rootMaterial()
-		let base64 = root.der.base64EncodedString()
-
-		guard let url = URL(
-			string: "data:application/x-x509-ca-cert;base64,\(base64)"
-		) else {
-			throw CocoaError(.fileReadCorruptFile)
-		}
-
-		return url
+		let profile: [String: Any] = [
+			"PayloadType": "Configuration",
+			"PayloadVersion": 1,
+			"PayloadIdentifier": "app.feather.local-ca",
+			"PayloadUUID": UUID().uuidString,
+			"PayloadDisplayName": "Feather Local CA",
+			"PayloadDescription": "Installs the root CA used by Feather's local installation server.",
+			"PayloadContent": [[
+				"PayloadType": "com.apple.security.root",
+				"PayloadVersion": 1,
+				"PayloadIdentifier": "app.feather.local-ca.root",
+				"PayloadUUID": UUID().uuidString,
+				"PayloadDisplayName": "Feather Local Root CA",
+				"PayloadCertificateFileName": "FeatherLocalCA.cer",
+				"PayloadContent": root.der
+			]]
+		]
+		return try PropertyListSerialization.data(fromPropertyList: profile, format: .xml, options: 0)
 	}
 
 	private static func rootMaterial() throws -> RootMaterialModel {

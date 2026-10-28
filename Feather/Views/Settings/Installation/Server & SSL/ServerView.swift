@@ -8,10 +8,12 @@
 import SwiftUI
 import NimbleJSON
 import NimbleViews
+import UIKit
 
 // MARK: - View
 struct ServerView: View {
 	@Environment(\.openURL) private var openURL
+	@State private var _certificateServer: LocalCAProfileServer?
 	
 	@AppStorage("Feather.ipFix") private var _ipFix: Bool = false
 	@AppStorage("Feather.serverMethod") private var _serverMethod: Int = 0
@@ -42,14 +44,47 @@ struct ServerView: View {
 				Button(.localized("Install Local CA"), systemImage: "folder") {
 					do {
 						try ServerInstaller.createServerCert()
-						let url = try ServerInstaller.rootCertificateDataURL()
-						// TODO: use the local server to open a path to the data url
+						_certificateServer?.stop()
+						_certificateServer = nil
+						let server = try LocalCAProfileServer(
+							profile: ServerInstaller.rootCertificateProfileData()
+						)
+						_certificateServer = server
+						openURL(server.url) { accepted in
+							guard !accepted else { return }
+							server.stop()
+							_certificateServer = nil
+							UIAlertController.showAlertWithOk(
+								title: .localized("Error"),
+								message: .localized("Unable to open the browser to download the CA profile.")
+							)
+						}
 					} catch {
 						UIAlertController.showAlertWithOk(title: .localized("Error"), message: String(describing: error))
 					}
 				}
 				.disabled(_serverMethod != 0)
+
+				Button(.localized("Install Downloaded Profile"), systemImage: "gear") {
+					_openSettings(path: "ManagedConfigurationList")
+				}
+				Button(.localized("Trust Local CA"), systemImage: "checkmark.shield") {
+					_openSettings(path: "About/CERT_TRUST_SETTINGS")
+				}
+			} footer: {
+				Text(.localized("Allow the profile download in Safari. Then open Settings > General > VPN & Device Management and install Feather Local CA. Finally, open General > About > Certificate Trust Settings and enable full trust for Feather Local Root CA."))
 			}
+		}
+	}
+
+	private func _openSettings(path: String) {
+		guard let url = URL(string: "App-prefs:root=General&path=\(path)") else { return }
+		openURL(url) { accepted in
+			guard !accepted else { return }
+			UIAlertController.showAlertWithOk(
+				title: .localized("Open Settings"),
+				message: .localized("Open Settings manually. Install the downloaded profile in General > VPN & Device Management, then enable full trust in General > About > Certificate Trust Settings.")
+			)
 		}
 	}
 }
