@@ -8,87 +8,83 @@
 import SwiftUI
 import NimbleJSON
 import NimbleViews
-
-// MARK: - Extension: Model
-extension ServerView {
-	struct ServerPackModel: Decodable {
-		var cert: String
-		var ca: String
-		var key: String
-		var info: ServerPackInfo
-		
-		private enum CodingKeys: String, CodingKey {
-			case cert, ca, key1, key2, info
-		}
-		
-		init(from decoder: Decoder) throws {
-			let container = try decoder.container(keyedBy: CodingKeys.self)
-			cert = try container.decode(String.self, forKey: .cert)
-			ca = try container.decode(String.self, forKey: .ca)
-			let key1 = try container.decode(String.self, forKey: .key1)
-			let key2 = try container.decode(String.self, forKey: .key2)
-			key = key1 + key2
-			info = try container.decode(ServerPackInfo.self, forKey: .info)
-		}
-		
-		struct ServerPackInfo: Decodable {
-			var issuer: Domains
-			var domains: Domains
-		}
-		
-		struct Domains: Decodable {
-			var commonName: String
-			
-			private enum CodingKeys: String, CodingKey {
-				case commonName = "commonName"
-			}
-		}
-	}
-}
+import UIKit
 
 // MARK: - View
 struct ServerView: View {
+	@Environment(\.openURL) private var openURL
+	@State private var _certificateServer: LocalCAProfileServer?
+	
 	@AppStorage("Feather.ipFix") private var _ipFix: Bool = false
 	@AppStorage("Feather.serverMethod") private var _serverMethod: Int = 0
 	private let _serverMethods: [String] = [.localized("Fully Local"), .localized("Semi Local")]
-	
-	private let _dataService = NBFetchService()
-	private let _serverPackUrl = "https://backloop.dev/pack.json"
 	
 	// MARK: Body
 	var body: some View {
 		Group {
 			Section {
-				Picker(.localized("Server Type"), systemImage: "server.rack", selection: $_serverMethod) {
+				Picker(
+					.localized("Server Type"), 
+					systemImage: "server.rack", 
+					selection: $_serverMethod
+				) {
 					ForEach(_serverMethods.indices, id: \.description) { index in
 						Text(_serverMethods[index]).tag(index)
 					}
 				}
-				Toggle(.localized("Only use localhost address"), systemImage: "lifepreserver", isOn: $_ipFix)
-					.disabled(_serverMethod != 1)
+				Toggle(
+					.localized("Only use localhost address"), 
+					systemImage: "lifepreserver", 
+					isOn: $_ipFix
+				)
+				.disabled(_serverMethod != 1)
 			}
 			
 			Section {
-				Button(.localized("Update SSL Certificates"), systemImage: "arrow.down.doc") {
-					FR.downloadSSLCertificates(from: _serverPackUrl) { success in
-						if success {
-							DispatchQueue.main.async {
-								UIAlertController.showAlertWithOk(
-									title: .localized("SSL Certificates"),
-									message: .localized("Certificates updated successfully.")
-								)
-							}
-						} else {
-							DispatchQueue.main.async {
-								UIAlertController.showAlertWithOk(
-									title: .localized("SSL Certificates"),
-									message: .localized("Failed to download, check your internet connection and try again.")
-								)
-							}
+				Button(.localized("Install Local CA"), systemImage: "folder") {
+					do {
+						try ServerInstaller.createServerCert()
+						_certificateServer?.stop()
+						_certificateServer = nil
+						let server = try LocalCAProfileServer(
+							profile: ServerInstaller.rootCertificateProfileData()
+						)
+						_certificateServer = server
+						openURL(server.url) { accepted in
+							guard !accepted else { return }
+							server.stop()
+							_certificateServer = nil
+							UIAlertController.showAlertWithOk(
+								title: .localized("Error"),
+								message: .localized("Unable to open the browser to download the CA profile.")
+							)
 						}
+					} catch {
+						UIAlertController.showAlertWithOk(title: .localized("Error"), message: String(describing: error))
 					}
 				}
+				.disabled(_serverMethod != 0)
+
+				Button(.localized("Install Downloaded Profile"), systemImage: "gear") {
+					_openSettings(path: "ManagedConfigurationList")
+				}
+				Button(.localized("Trust Local CA"), systemImage: "checkmark.shield") {
+					_openSettings(path: "About/CERT_TRUST_SETTINGS")
+				}
+			} footer: {
+				Text(.localized("Allow the profile download in Safari. Then open Settings > General > VPN & Device Management and install Feather Local CA. Finally, open General > About > Certificate Trust Settings and enable full trust for Feather Local Root CA."))
 			}
+		}
+	}
+
+	private func _openSettings(path: String) {
+		guard let url = URL(string: "App-prefs:root=General&path=\(path)") else { return }
+		openURL(url) { accepted in
+			guard !accepted else { return }
+			UIAlertController.showAlertWithOk(
+				title: .localized("Open Settings"),
+				message: .localized("Open Settings manually. Install the downloaded profile in General > VPN & Device Management, then enable full trust in General > About > Certificate Trust Settings.")
+			)
 		}
 	}
 }

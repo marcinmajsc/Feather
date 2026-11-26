@@ -61,7 +61,7 @@
       "location" : "https://github.com/krzyzanowskim/OpenSSL",
       "state" : {
         "revision" : "623c84da314e85363236507ca38a4bde65df21c3",
-        "version" : "3.3.3001"
+        "version" : "3.6.3000"
       }
     },
     {
@@ -107,6 +107,15 @@
       "state" : {
         "revision" : "cd142fd2f64be2100422d658e7411e39489da985",
         "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-certificates",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-certificates.git",
+      "state" : {
+        "revision" : "ff86b924ead66f853b8baf91f3c41926a8f36177",
+        "version" : "1.21.0"
       }
     },
     {

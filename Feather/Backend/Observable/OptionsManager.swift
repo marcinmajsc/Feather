@@ -89,6 +89,8 @@ struct Options: Codable, Equatable {
 	var ppqProtection: Bool
 	/// (Better) protection against PPQ
 	var dynamicProtection: Bool
+	/// Automatically select certificate that matches target bundle identifier
+	var autoSelectMatchingCertificate: Bool = false
 	/// App identifiers list which matches and replaces
 	var identifiers: [String: String]
 	/// App name list which matches and replaces
@@ -151,6 +153,7 @@ struct Options: Codable, Equatable {
 		ppqString: randomString(),
 		ppqProtection: false,
 		dynamicProtection: false,
+		autoSelectMatchingCertificate: false,
 		identifiers: [:],
 		displayNames: [:],
 		injectionFiles: [],
@@ -179,8 +182,6 @@ struct Options: Codable, Equatable {
 		post_deleteAppAfterSigned: false
 	)
 	
-	// MARK: duplicate values are not recommended!
-
 	enum AppAppearance: String, Codable, CaseIterable, LocalizedDescribable {
 		case `default`
 		case light = "Light"
@@ -257,3 +258,4 @@ extension LocalizedDescribable where Self: RawRepresentable, RawValue == String 
 		return localized == self.rawValue ? self.rawValue : localized
 	}
 }
+
